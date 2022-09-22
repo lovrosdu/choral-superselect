@@ -1,0 +1,6 @@
+package choral.channels;
+
+public interface DiSuperSelectChannel@( A, B )< T@X > {
+    @SuperSelectionMethod
+    < S@Y extends T@Y > S@B select( S@A m );
+}
